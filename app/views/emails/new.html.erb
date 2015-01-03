@@ -2,13 +2,14 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Bylder</a>
+    </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -26,7 +27,8 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
 
-                    <h1 style="font-size: 56px;" class="overlay">Find & Hire Talented<br>Student Web Developers</h1>
+                    <h1 style="font-size: 56px;" class="overlay">Find & Hire Talented<br>Student Web Developers</h1><br>
+                    <p style="font-size: 24px;">We Currently have <strong><em>204 Students </em></strong>and <strong><em>23 Companies </em></strong> signed up.</p>
                 </div>
             </div>
         </div>
@@ -57,13 +59,11 @@
 
 <section id="sign-up">
     <div class="container-fluid">
-        <div class="center">
-            <h1 style="font-size: 44px;">Sign Up for our Beta Test</h1><br><br>
-            <div class="col-md-10 col-md-offset-1">
-                <%= render 'form' %>
-            </div>
+        <h1 style="font-size: 44px;" class="center">Sign Up for our Beta Test</h1><br><br>
+        <div class="col-md-10 col-md-offset-1">
+            <%= render 'form' %>
         </div>
-    </div>
+        
 </section>
 
 <section id="schools">
